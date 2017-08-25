@@ -17,3 +17,7 @@
 //
 //
 // console.log(s + input_stdin_array[2]);
+
+// Day 2, 3, 5, 6, 7, 8, 9, 10, 11
+// my code disappeared :(
+// I'll save future challenges before I click next
