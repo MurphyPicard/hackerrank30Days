@@ -52,29 +52,63 @@
 
 // Day 12
 class Student extends Person {
+    //console.log("hi");
     /*
     *   Class Constructor
+    *
     *   @param firstName - A string denoting the Person's first name.
     *   @param lastName - A string denoting the Person's last name.
     *   @param id - An integer denoting the Person's ID number.
     *   @param scores - An array of integers denoting the Person's test scores.
     */
+    //Person.call(this, firstName, lastName, id, scores);
+
     constructor(scores) {
+        //this.firstName = firstName;
+        //this.lastName = lastName;
+        //this.idNumber = identification;
+        //this.scores = scores;
         super(scores);
-    }
+        //this.scores = scores;
+
+        this.calculate = function(scores){
+
+            var total = 0;
+            scores.forEach(function(score){
+                total += score;
+            });
+
+            var avg = total/scores.length;
+            if(avg < 990){
+                console.log('progress!');
+            return 'p';
+            }//if
+
+        }//calc
+
+
+
+    }// construc
+
     /*
     *   Method Name: calculate
     *   @return A character denoting the grade.
     */
-    this.calculate = function(scores){
-        var total = 0;
-        scores.forEach((score)=>{
-            total += score;
-        });
-        var avg = total/scores.length;
-        if(avg > 0){
-            console.log('progress!');
-        return 'p';
-        }//if
-    }//calc
+
 }//student
+/*
+function SuperHero (name, superPower) {
+    this.name = name;
+    this.superPower = superPower;
+    this.allegiance = "Good";
+}
+
+SuperHero.prototype.saveTheDay = function () {
+    console.log(this.name + " saved the day!");
+};
+
+var marvel = new SuperHero("Captain Marvel", "magic");
+
+// Outputs: "Captain Marvel saved the day!"
+marvel.saveTheDay();
+*/
