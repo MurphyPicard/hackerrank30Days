@@ -112,3 +112,38 @@ var marvel = new SuperHero("Captain Marvel", "magic");
 // Outputs: "Captain Marvel saved the day!"
 marvel.saveTheDay();
 */
+
+
+
+
+
+
+// DAY 13 ************************************************************************
+// class MyBook extends Book {
+// // Declare your class here.
+//     constructor(title, author, price){
+//         super(title, author);
+//         this.price = price;
+//     }
+//     /**
+//     *   Class Constructor
+//     *
+//     *   @param title The book's title.
+//     *   @param author The book's author.
+//     *   @param price The book's price.
+//     **/
+//     // Write your constructor here
+//     display(){
+//         console.log("Title: "+ this.title);
+//         console.log("Author: "+ this.author);
+//         console.log("Price: "+ this.price);
+//     }
+//     /**
+//     *   Method Name: display
+//     *
+//     *   Print the title, author, and price in the specified format.
+//     **/
+//     // Write your method here
+//
+// // End class
+// }
