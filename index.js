@@ -176,14 +176,20 @@ marvel.saveTheDay();
 
 // Day 25
 // function processData(input) {
+//
 //     var inArray = input.split("\n");
 //     //console.log(inArray);
 //
 //     for(var i = 1; i < inArray.length; i++ ){
-//         var verified = false;
+//         var verified = false; // so we know if we checked the number already
 //         var start = 2;
 //
-//         while (start <= Math.sqrt(inArray[i])) {
+//         if(inArray[i]<2){  // checks for theh number 1
+//            console.log("Not prime");
+//            verified = true;
+//         }
+//         
+//         while (start <= Math.sqrt(inArray[i])){
 //             if (inArray[i] % start++ < 1){
 //                 //console.log(inArray[i]);
 //                 console.log("Not prime");
@@ -195,11 +201,7 @@ marvel.saveTheDay();
 //         if(verified == false){
 //             //console.log(inArray[i]);
 //             console.log("Prime");
-//         }
-//
-//
+//         }//if
 //
 //     }//for
-//
-//     //Enter your code here
-// }
+// }//processData
