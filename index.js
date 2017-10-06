@@ -176,15 +176,13 @@ marvel.saveTheDay();
 
 // Day 16
 // function main() {
-//     /*
-//      * Try using `eval`
-//      */
+//
 //     var S = readLine();
 //
-//     if( parseInt(S) ){
+//     try {
 //         console.log( eval(S) );
 //     }
-//     else{
+//     catch(S){
 //         console.log("Bad String");
 //     }
 //
