@@ -188,7 +188,7 @@ marvel.saveTheDay();
 //            console.log("Not prime");
 //            verified = true;
 //         }
-//         
+//
 //         while (start <= Math.sqrt(inArray[i])){
 //             if (inArray[i] % start++ < 1){
 //                 //console.log(inArray[i]);
@@ -205,3 +205,47 @@ marvel.saveTheDay();
 //
 //     }//for
 // }//processData
+
+
+
+// Day 26
+// not working for
+// 24 12 1898
+// 18 9 1898
+// function processData(input) {
+//     var twoDates = input.split("\n");
+//     var actual = twoDates[0].split(" ");
+//     var expected = twoDates[1].split(" ");
+//     //console.log(expected);
+//
+//     var fine = 0;
+//
+//     // if year is late
+//     if( actual[2] > expected[2] ){
+//         fine = 10000;
+//         console.log(fine);
+//         return;
+//     }
+//
+//     // if month is late
+//     if( actual[2] == expected[2] ){
+//         if( actual[1] > expected[1] ){
+//             fine = (actual[1]-expected[1]) * 500;
+//             console.log(fine);
+//             return;
+//         }
+//     }
+//
+//     // if day is late
+//     if( actual[2] == expected[2] ){
+//         if( actual[1] == expected[1] ){
+//             if( actual[0] > expected[0] ){
+//                 fine = (actual[0]-expected[0]) * 15;
+//                 console.log(fine);
+//                 return;
+//             }
+//         }
+//     }
+//
+//     console.log(fine);
+// }
