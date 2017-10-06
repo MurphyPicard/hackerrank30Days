@@ -149,20 +149,43 @@ marvel.saveTheDay();
 // }
 
 // Day 15
+// this.insert=function(head,data){
 //
+//         //console.log("this is head: ",typeof head);
+//         //console.log("this is data: ",data);
+//         //console.log("this is input_stdin_array: ",input_stdin_array);
+//
+//
+//
+//         if(head == null){
+//             return new Node(data);
+//         }
+//         var cnode = head;
+//         while(cnode.next){
+//             cnode = cnode.next;
+//         }
+//         cnode.next = new Node(data);
+//         return head;
+//
+//
+//
+//
+//     //complete this method
+//     };
 
-Day 16
-function main() {
-    /*
-     * Try using `eval`
-     */
-    var S = readLine();
 
-    if( parseInt(S) ){
-        console.log( eval(S) );
-    }
-    else{
-        console.log("Bad String");
-    }
-
-}
+// Day 16
+// function main() {
+//     /*
+//      * Try using `eval`
+//      */
+//     var S = readLine();
+//
+//     if( parseInt(S) ){
+//         console.log( eval(S) );
+//     }
+//     else{
+//         console.log("Bad String");
+//     }
+//
+// }
