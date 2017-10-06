@@ -52,43 +52,29 @@
 
 // Day 12
 class Student extends Person {
-    //console.log("hi");
-    /*
-    *   Class Constructor
-    *
-    *   @param firstName - A string denoting the Person's first name.
-    *   @param lastName - A string denoting the Person's last name.
-    *   @param id - An integer denoting the Person's ID number.
-    *   @param scores - An array of integers denoting the Person's test scores.
-    */
-    //Person.call(this, firstName, lastName, id, scores);
 
-    constructor(scores) {
-        //this.firstName = firstName;
-        //this.lastName = lastName;
-        //this.idNumber = identification;
-        //this.scores = scores;
-        super(scores);
-        //this.scores = scores;
-
-        this.calculate = function(scores){
-
-            var total = 0;
-            scores.forEach(function(score){
-                total += score;
-            });
-
-            var avg = total/scores.length;
-            if(avg < 990){
-                console.log('progress!');
-            return 'p';
-            }//if
-
-        }//calc
-
-
-
+    constructor(firstName, lastName, identification, scores) {
+        super(firstName, lastName, identification);
+        this.scores = scores;
     }// construc
+
+    this.calculate = function(scores){
+
+        var total = 0;
+        scores.forEach(function(score){
+            total += score;
+        });
+
+        var avg = total/scores.length;
+        if(avg < 990){
+            console.log('progress!');
+        return 'p';
+        }//if
+    }//calc
+
+
+
+
 
     /*
     *   Method Name: calculate
@@ -186,4 +172,34 @@ marvel.saveTheDay();
 //         console.log("Bad String");
 //     }
 //
+// }
+
+// Day 25
+// function processData(input) {
+//     var inArray = input.split("\n");
+//     //console.log(inArray);
+//
+//     for(var i = 1; i < inArray.length; i++ ){
+//         var verified = false;
+//         var start = 2;
+//
+//         while (start <= Math.sqrt(inArray[i])) {
+//             if (inArray[i] % start++ < 1){
+//                 //console.log(inArray[i]);
+//                 console.log("Not prime");
+//                 verified = true;
+//                 break;
+//             }//if
+//         }//while
+//
+//         if(verified == false){
+//             //console.log(inArray[i]);
+//             console.log("Prime");
+//         }
+//
+//
+//
+//     }//for
+//
+//     //Enter your code here
 // }
