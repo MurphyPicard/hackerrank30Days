@@ -209,9 +209,7 @@ marvel.saveTheDay();
 
 
 // Day 26
-// not working for
-// 24 12 1898
-// 18 9 1898
+// I thought I might need to add parseInt in a few places
 // function processData(input) {
 //     var twoDates = input.split("\n");
 //     var actual = twoDates[0].split(" ");
@@ -229,7 +227,7 @@ marvel.saveTheDay();
 //
 //     // if month is late
 //     if( actual[2] == expected[2] ){
-//         if( actual[1] > expected[1] ){
+//         if( parseInt(actual[1]) > parseInt(expected[1]) ){
 //             fine = (actual[1]-expected[1]) * 500;
 //             console.log(fine);
 //             return;
@@ -249,3 +247,14 @@ marvel.saveTheDay();
 //
 //     console.log(fine);
 // }
+//
+// process.stdin.resume();
+// process.stdin.setEncoding("ascii");
+// _input = "";
+// process.stdin.on("data", function (input) {
+//     _input += input;
+// });
+//
+// process.stdin.on("end", function () {
+//    processData(_input);
+// });
