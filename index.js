@@ -191,6 +191,30 @@ marvel.saveTheDay();
 //     }//power
 // }//Calculator
 
+// DAY 18
+// function Solution(){ 
+//     this.que=[];
+//     this.stack = [];
+//
+//     this.pushCharacter = function (a){
+//         this.stack.push(a);
+//     }
+//
+//     this.enqueueCharacter = function (b){
+//         this.que.push(b);
+//     }
+//
+//     this.popCharacter = function(){
+//         return this.stack.pop();
+//
+//     }
+//
+//     this.dequeueCharacter = function(){
+//         return this.que.shift();
+//     }
+// }
+
+
 
 // Day 25
 // function processData(input) {
