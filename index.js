@@ -192,7 +192,7 @@ marvel.saveTheDay();
 // }//Calculator
 
 // DAY 18
-// function Solution(){ 
+// function Solution(){
 //     this.que=[];
 //     this.stack = [];
 //
@@ -214,7 +214,22 @@ marvel.saveTheDay();
 //     }
 // }
 
-
+// //Day 19 - must do in Java
+// class Calculator implements AdvancedArithmetic {
+//     public int divisorSum ( int n ){
+//         int total = 0;
+//
+//         int i = 1;
+//         while(i <= n/2){
+//             if ( n % i == 0 ){
+//                 total += i;
+//             }
+//             i++;
+//         }//while
+//         total += n;
+//         return total;
+//     }//divi
+// }//Calc
 
 // Day 25
 // function processData(input) {
