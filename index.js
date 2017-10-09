@@ -174,21 +174,20 @@ marvel.saveTheDay();
 //
 // }
 
-// Day 17 - incomplete
+// Day 17 - done - hackerRank wanted throw specifically
 // class Calculator{
 //     power (n,p){
-//         
 //         try {
 //             if((n>=0) && (p>=0)){
-//                 console.log(Math.pow(n, p));
+//                 throw(Math.pow(n, p));
 //             }
 //             else{
 //                 throw "n and p should be non-negative";
 //             }
-//         }
+//         }//try
 //         catch(err) {
-//             console.log(err);
-//         }
+//             throw(err);
+//         }//catch
 //     }//power
 // }//Calculator
 
