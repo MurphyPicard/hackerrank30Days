@@ -176,10 +176,21 @@ marvel.saveTheDay();
 
 // Day 17 - incomplete
 // class Calculator{
-//     power (b,e){
-//         ( (b>=0) && (e>=0) ) ? console.log(Math.pow(b, e)) : console.log("n and p should be non-negative") ;
+//     power (n,p){
+//         
+//         try {
+//             if((n>=0) && (p>=0)){
+//                 console.log(Math.pow(n, p));
+//             }
+//             else{
+//                 throw "n and p should be non-negative";
+//             }
+//         }
+//         catch(err) {
+//             console.log(err);
+//         }
 //     }//power
-// }
+// }//Calculator
 
 
 // Day 25
