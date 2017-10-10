@@ -315,3 +315,34 @@ marvel.saveTheDay();
 // process.stdin.on("end", function () {
 //    processData(_input);
 // });
+
+
+// Day 27 is sooooooo stupid - just console.log valid input for the tests
+// console.log(5);
+// console.log("4 3");
+// console.log("-1 0 4 2");
+// console.log("6 1");
+// console.log("-2 -4 -5 0 3 4");
+// console.log("5 3");
+// console.log("0 -1 5 6 7");
+// console.log("3 2");
+// console.log("-9 0 10");
+// console.log("7 6");
+// console.log("-9 -8 -7 0 9 10 11");
+
+//Day 28: RegEx, Patterns, and Intro to Databases
+// function main() {
+//     var N = parseInt(readLine());
+//     for(var a0 = 0; a0 < N; a0++){
+//         var na = []; // stands for names array
+//         var firstName_temp = readLine().split(' ');
+//         var firstName = firstName_temp[0];
+//         var emailID = firstName_temp[1];
+//                 console.log("this is fn: "+ firstName_temp);
+//
+//         console.log("this is fn: "+ firstName);
+//                 console.log("this is fn: "+ emailID);
+//
+//     }
+//
+// }
