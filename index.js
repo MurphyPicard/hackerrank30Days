@@ -333,16 +333,17 @@ marvel.saveTheDay();
 //Day 28: RegEx, Patterns, and Intro to Databases
 // function main() {
 //     var N = parseInt(readLine());
+//     var na = []; // stands for names array
 //     for(var a0 = 0; a0 < N; a0++){
-//         var na = []; // stands for names array
+//
 //         var firstName_temp = readLine().split(' ');
 //         var firstName = firstName_temp[0];
 //         var emailID = firstName_temp[1];
-//                 console.log("this is fn: "+ firstName_temp);
 //
-//         console.log("this is fn: "+ firstName);
-//                 console.log("this is fn: "+ emailID);
+//         if(emailID.slice(-9) == "gmail.com"){
+//             na.push(firstName);
+//         }//if
+//     }//for
 //
-//     }
-//
+//     console.log(na.sort().join('\n'));
 // }
