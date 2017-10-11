@@ -348,3 +348,37 @@ marvel.saveTheDay();
 //
 //     console.log(na.sort().join('\n'));
 // }
+
+Day 29 passing one test so far
+function main() {
+    var t = parseInt(readLine());
+    var nandk = []; // n and k array
+    for(var a0 = 0; a0 < t; a0++){
+        var n_temp = readLine().split(' ');
+        var n = parseInt(n_temp[0]);
+        var k = parseInt(n_temp[1]);
+        nandk.push(n);
+        nandk.push(k);
+    }
+
+    //console.log(nandk);
+
+    for(var nindex = 0; nindex < nandk.length; nindex+=2){
+        //console.log('new test');
+        var big = 0;
+
+        for(var i = 1; i < nandk[nindex]; i++){                 // looping through A's
+            for(var j = i+1; j < nandk[nindex] + 1; j++){       // looping through B's
+                var currentNum = i&j;                           // getting the BITWISE &
+                if(currentNum >= big && currentNum < nandk[nindex +1]){
+                    big = currentNum;
+                }
+
+            }
+        }
+        console.log(big);
+
+    }
+
+
+}
