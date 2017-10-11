@@ -340,9 +340,10 @@ marvel.saveTheDay();
 //         var firstName = firstName_temp[0];
 //         var emailID = firstName_temp[1];
 //
-//         if(emailID.slice(-9) == "gmail.com"){
+//         if(emailID.slice(-10) == "@gmail.com"){
 //             na.push(firstName);
 //         }//if
+//
 //     }//for
 //
 //     console.log(na.sort().join('\n'));
